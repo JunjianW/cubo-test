@@ -23,7 +23,7 @@ app.use(async (ctx, next) => {
 // response
 
 app.use(async ctx => {
-  ctx.body = 'Hello World! - 2';
+  ctx.body = 'Hello World! - 3';
 });
 
 app.listen(3000);
