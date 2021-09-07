@@ -3,7 +3,7 @@ const app = new Koa();
 
 // logger
 
-print("hello world2")
+//print("hello world2")
 
 app.use(async (ctx, next) => {
   await next();
